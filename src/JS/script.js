@@ -6,16 +6,24 @@ $(document).ready(function(){
     slidesToShow: 1,
     prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-left.png"></img></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.png"></img></button>',
-    autoplay: true,
-    autoplaySpeed: 2000
+    autoplay: false,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1080,
+        settings: {
+        arrows: false,
+        }
+      }]
   });
+  
   $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
     $(this)
       .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
       .closest('div.container').find('div.catalog__content').removeClass('catalog__content_active')
       .eq($(this).index()).addClass('catalog__content_active');
   });
-  
+
   function toggleSlide(item) {
     $(item).each(function(i) {
         $(this).on('click', function(e) {

@@ -6,6 +6,7 @@
         img{
             display: block;
             margin: 0 auto;
+            width: 100%;
         }
         .slick-prev, .slick-next {
             border: none;
@@ -14,6 +15,7 @@
             top: 50%;
             transform: translateY(-50%);
             left: -66px;
+            z-index: 1;
         }
         .slick-next{
             right: -66px;
