@@ -194,6 +194,12 @@
   color: #fff;
   text-align: left;
 }
+.title_name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d0d0d;
+  text-align: left;
+}
 
 .feed-form {
   margin-top: 36px;
@@ -545,4 +551,33 @@
   .consultation__descr {
     font-size: 17px;
   }
+}
+.reviews {
+  min-height: 950px;
+}
+.reviews__block {
+  width: 654px;
+  height: 191px;
+  display: inline-block;
+}
+.reviews__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 102px;
+}
+.reviews__wrapper_first {
+  margin-top: 70px;
+}
+.reviews__subname {
+  font-size: 14px;
+  font-weight: 300;
+  color: #646464;
+  margin-top: 10px;
+}
+.reviews__descr {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #0d0d0d;
+  margin-top: 19px;
 }/*# sourceMappingURL=style.css.map */
