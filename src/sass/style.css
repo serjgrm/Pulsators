@@ -220,6 +220,9 @@
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
 }
+.feed-form_mt25 {
+  margin-top: 25px;
+}
 
 .carousel {
   padding: 108px 0;
@@ -573,6 +576,24 @@
     width: 350px;
   }
 }
+@media (max-width: 470px) {
+  .overlay .modal {
+    width: 250px;
+    padding: 15px;
+  }
+  .overlay .modal__subtitle {
+    font-size: 13px;
+  }
+  .overlay .modal__descr {
+    font-size: 12px;
+  }
+  .overlay .modal .feed-form_mt25 {
+    width: 100%;
+  }
+  .overlay .modal .feed-form_mt25 button {
+    font-size: 13px;
+  }
+}
 .reviews {
   min-height: 1000px;
   padding-bottom: 71px;
@@ -622,7 +643,6 @@
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  z-index: 1;
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
@@ -657,4 +677,53 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 380px;
+  min-height: 400px;
+  background-color: #f2f2f2;
+  padding: 38px 40px 40px 40px;
+}
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  font-size: 40px;
+  color: #c70101;
+  line-height: 21px;
+  cursor: pointer;
+}
+.modal__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.modal__descr {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0d0d0d;
+  text-align: center;
+}
+.modal_mini {
+  min-height: 140px;
+}
+
+#consultation, #order, #thanks {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
