@@ -2,6 +2,11 @@
     .container{
         width: 750px;
     }   
+    .reviews{
+        .reviews__block{
+            width: 500px;
+        }
+    }
 }
 @media (max-width: 770px){
     .container{
@@ -28,6 +33,14 @@
         }
         .title{
             font-size: 25px;
+        }
+    }
+    .reviews{
+        .reviews__descr{
+            font-size: 13px;    
+        }
+        .reviews__block{
+            width: 350px;
         }
     }
     
@@ -156,6 +169,20 @@
         }
         &__descr{
             font-size: 17px;
+        }
+    }
+    .reviews{
+        margin-bottom: 71px;
+        .reviews__wrapper{
+            flex-direction: column;
+            img{
+                width: 350px;
+            }
+        }
+    }
+    .footer{
+        .footer__addr{
+            width: 350px;
         }
     }
 }
