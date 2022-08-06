@@ -84,6 +84,7 @@
             text-align: center;
             &:hover{
                 color: $main_color;
+                cursor: pointer;
             }
         }
         hr{
@@ -135,7 +136,7 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li{
+            p{
                 font-size: 14px;
                 font-weight: 300;
                 color: #555555;
@@ -166,6 +167,7 @@
             transform: translateX(calc(-50% - 19px));
             &:hover{
                 color: $main_color;
+                cursor: pointer;
             }
         }
 }
