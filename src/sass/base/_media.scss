@@ -103,6 +103,15 @@
             font-size: 13px;
         }
     }
+    .reviews{
+        margin-bottom: 71px;
+        .reviews__wrapper{
+            flex-direction: column;
+            img{
+                width: 350px;
+            }
+        }
+    }
 }
 @media (max-width: 435px){
     .container{
@@ -169,15 +178,6 @@
         }
         &__descr{
             font-size: 17px;
-        }
-    }
-    .reviews{
-        margin-bottom: 71px;
-        .reviews__wrapper{
-            flex-direction: column;
-            img{
-                width: 350px;
-            }
         }
     }
     .footer{

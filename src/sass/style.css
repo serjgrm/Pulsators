@@ -534,6 +534,15 @@
   .catalog .catalog__tab {
     font-size: 13px;
   }
+  .reviews {
+    margin-bottom: 71px;
+  }
+  .reviews .reviews__wrapper {
+    flex-direction: column;
+  }
+  .reviews .reviews__wrapper img {
+    width: 350px;
+  }
 }
 @media (max-width: 435px) {
   .container {
@@ -591,15 +600,6 @@
   }
   .consultation__descr {
     font-size: 17px;
-  }
-  .reviews {
-    margin-bottom: 71px;
-  }
-  .reviews .reviews__wrapper {
-    flex-direction: column;
-  }
-  .reviews .reviews__wrapper img {
-    width: 350px;
   }
   .footer .footer__addr {
     width: 350px;
