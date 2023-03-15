@@ -26,7 +26,7 @@
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url("../img/main.jpg") center center/cover no-repeat;
+  background: url("../img/main.webp") center center/cover no-repeat;
 }
 .promo__wrapper {
   display: flex;
@@ -199,7 +199,7 @@
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
-  background: url("../img/bg2.jpg") center center/cover no-repeat;
+  background: url("../img/bg2.webp") center center/cover no-repeat;
 }
 .consultation__descr {
   font-size: 20px;
